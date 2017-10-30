@@ -8,7 +8,7 @@ module.exports = (user, token) =>{
 
     function sponsor(_user, _token) {
         let responder = {};
-
+        console.log(_user);
         responder.id = _user.userID;
         responder.nome = _user.name;
         responder.email = _user.email;
