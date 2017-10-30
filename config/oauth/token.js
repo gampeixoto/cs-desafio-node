@@ -21,7 +21,7 @@ module.exports = () => {
                     if (err) reject("não foi gerado o token");
 
                     user.token = hash;
-                    resolve(user);
+                    resolve(user.save());
                 });
             });
 
