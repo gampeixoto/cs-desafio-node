@@ -3,7 +3,7 @@
 const express = require('express');
 const load = require('express-load');
 const bodyParser = require('body-parser');
-const morgan = require('morgan');
+//const morgan = require('morgan');
 const passporte = require('passport');
 
 module.exports = () => {
