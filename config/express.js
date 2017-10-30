@@ -15,7 +15,7 @@ module.exports = () => {
   app.use(bodyParser.json());
   app.use(require('method-override')());
 
-  app.use(morgan('dev'));
+  //app.use(morgan('dev'));
   app.use(passporte.initialize());
 
 
