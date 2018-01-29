@@ -22,6 +22,7 @@ module.exports = (app) => {
         });
 
         let token;
+        console.log(_user);
         User.createUserDate(_user)
             .then((result) => {
                 if (!result)
