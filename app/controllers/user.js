@@ -11,7 +11,7 @@ module.exports = (app) => {
     Controller.createUser = (req, res) => {
         console.log('cheguei no controle');
         let data = req.body;
-        console.log(data);
+        console.log(req);
         let _user = {};
         _user.userID = guid.raw();
         _user.name = data.nome;
